@@ -1,0 +1,8 @@
+# Fedora 41
+
+
+## Set UTC Time
+Used to counter time inconsistencies in dual boot systems
+```bash
+    sudo timedatectl set-local-rtc '0'
+``
